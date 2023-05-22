@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Roboto:ital,wght@0,300;1,400&display=swap');
+:root {
+    --bg1: #0c0b08;
+    --txt-color: white;
+    --font1: 'Roboto';
+    --font2: 'Adamina';
+}
+
+/* estilos para todos los elementos html (mala practica) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--txt-color);
+    background-color:  var(--bg1);
+    /*font-family: 'Adamina', serif;*/
+    font-family: var(--font1), sans-serif;
+}
+
+/* para ocultar los adornos de las listas */
+li{
+    list-style: none;
+}

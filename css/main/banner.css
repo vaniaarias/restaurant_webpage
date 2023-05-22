@@ -1,0 +1,54 @@
+.banner{
+    display: grid;
+    grid-template-columns: 15rem 1fr 15rem;
+
+    /* alto de la pantalla - alto del menu */
+    height: calc(100vh - 4.3rem);
+}
+
+.banner .hashtag{
+    position: relative;
+
+}
+
+.banner .hashtag p{
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 10rem;
+    white-space: nowrap;
+}
+
+.banner .ver-mas{
+    position: relative;
+
+}
+
+.banner .ver-mas p{
+    position: absolute;
+    right: 50%;
+    bottom: 4rem;
+}
+
+.banner .ver-mas p::before{
+    con
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner div{
+    border: 1px solid red;
+}

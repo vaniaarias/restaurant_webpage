@@ -1,0 +1,18 @@
+.cabecera-pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padinng (vertical, horizontal) */
+    padding: 1rem 2rem;
+    height: 4.3rem;
+}
+
+.cabecera-pagina .logo{
+    font-family: var(--font2), serif;
+    font-size: 1.4rem;
+}
+
+.cabecera-pagina .menu .menu-list{
+    display: flex;
+    gap: 1rem;
+}
